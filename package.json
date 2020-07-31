@@ -1,0 +1,22 @@
+{
+  "name": "tincoCreativeMap",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": 9527
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.6.4",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {}
+}
