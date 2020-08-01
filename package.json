@@ -15,6 +15,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@antv/g2plot": "^1.1.19",
     "@antv/l7": "^2.2.28",
     "@antv/l7-maps": "^2.2.28",
     "ant-design-vue": "^1.6.4",
