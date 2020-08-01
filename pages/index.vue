@@ -2,8 +2,7 @@
   <div class="main">
     <div class="map" id="mapContainer"></div>
     <div id="sidebar" class="right-sidebar" v-show=true>
-      <a-page-header style="border: 1px solid rgb(235, 237, 240)" title="数据汇总" sub-title="全川车流量情况"
-        @back="() => null" />
+      <a-page-header style="border: 1px solid rgb(235, 237, 240)" title="数据汇总" sub-title="全川车流量情况" @back="() => null" />
       <velocity />
       <a-divider>时间轴</a-divider>
       <velocityPredict />
@@ -19,7 +18,6 @@
   import Velocity from '~/components/Velocity'
   import VolumePredict from '~/components/VolumePredict'
   import LoadHeatmap from "../middleware/loadHeatmap"
-  import Zoom from "../middleware/zoom"
 
   export default {
     components: {
@@ -29,7 +27,6 @@
     },
     mounted() {
       LoadHeatmap.loadHeatmap();
-      Zoom.zoom();
     },
     methods: {}
   }

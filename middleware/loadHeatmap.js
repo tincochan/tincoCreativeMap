@@ -57,6 +57,7 @@ export default {
               ].reverse()
             );
           scene.addLayer(layer);
+          // 地图缩放按钮
           const zoomControl = new Zoom({
             position: 'topright'
           });
