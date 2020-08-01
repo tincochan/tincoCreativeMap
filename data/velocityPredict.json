@@ -1,0 +1,769 @@
+[{
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "0:00:00",
+    "AverageJT": 270.88,
+    "AverageSpeed": 101.8,
+    "Flow": 4
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "0:15:00",
+    "AverageJT": 303.63,
+    "AverageSpeed": 90.82,
+    "Flow": 3
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "0:30:00",
+    "AverageJT": 318.1,
+    "AverageSpeed": 86.69,
+    "Flow": 14
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "0:45:00",
+    "AverageJT": 323.02,
+    "AverageSpeed": 85.37,
+    "Flow": 11
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "1:00:00",
+    "AverageJT": 260.15,
+    "AverageSpeed": 106,
+    "Flow": 8
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "1:15:00",
+    "AverageJT": 290.4,
+    "AverageSpeed": 94.96,
+    "Flow": 9
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "1:30:00",
+    "AverageJT": 322.34,
+    "AverageSpeed": 85.55,
+    "Flow": 14
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "1:45:00",
+    "AverageJT": 298.6,
+    "AverageSpeed": 92.35,
+    "Flow": 11
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "2:00:00",
+    "AverageJT": 278.43,
+    "AverageSpeed": 99.04,
+    "Flow": 11
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "2:15:00",
+    "AverageJT": 287.25,
+    "AverageSpeed": 96,
+    "Flow": 13
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "2:30:00",
+    "AverageJT": 309.91,
+    "AverageSpeed": 88.98,
+    "Flow": 6
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "2:45:00",
+    "AverageJT": 331.36,
+    "AverageSpeed": 83.22,
+    "Flow": 3
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "3:00:00",
+    "AverageJT": 340.15,
+    "AverageSpeed": 81.07,
+    "Flow": 7
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "3:15:00",
+    "AverageJT": 297.96,
+    "AverageSpeed": 92.55,
+    "Flow": 4
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "3:30:00",
+    "AverageJT": 243.78,
+    "AverageSpeed": 113.12,
+    "Flow": 6
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "3:45:00",
+    "AverageJT": 297.96,
+    "AverageSpeed": 92.55,
+    "Flow": 7
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "4:00:00",
+    "AverageJT": 302.37,
+    "AverageSpeed": 91.2,
+    "Flow": 4
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "4:15:00",
+    "AverageJT": 291.66,
+    "AverageSpeed": 94.55,
+    "Flow": 5
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "4:30:00",
+    "AverageJT": 343.93,
+    "AverageSpeed": 80.18,
+    "Flow": 1
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "4:45:00",
+    "AverageJT": 320.02,
+    "AverageSpeed": 86.17,
+    "Flow": 5
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "5:00:00",
+    "AverageJT": 297.32,
+    "AverageSpeed": 92.75,
+    "Flow": 5
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "5:15:00",
+    "AverageJT": 279.05,
+    "AverageSpeed": 98.82,
+    "Flow": 3
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "5:30:00",
+    "AverageJT": 296.71,
+    "AverageSpeed": 92.94,
+    "Flow": 3
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "5:45:00",
+    "AverageJT": 325.04,
+    "AverageSpeed": 84.84,
+    "Flow": 8
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "6:00:00",
+    "AverageJT": 306.5,
+    "AverageSpeed": 89.97,
+    "Flow": 1
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "6:15:00",
+    "AverageJT": 291.66,
+    "AverageSpeed": 94.55,
+    "Flow": 7
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "6:30:00",
+    "AverageJT": 308.66,
+    "AverageSpeed": 89.34,
+    "Flow": 5
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "6:45:00",
+    "AverageJT": 293.55,
+    "AverageSpeed": 93.94,
+    "Flow": 6
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "7:00:00",
+    "AverageJT": 282.83,
+    "AverageSpeed": 97.5,
+    "Flow": 9
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "7:15:00",
+    "AverageJT": 313.72,
+    "AverageSpeed": 87.9,
+    "Flow": 8
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "7:30:00",
+    "AverageJT": 317.48,
+    "AverageSpeed": 86.86,
+    "Flow": 16
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "7:45:00",
+    "AverageJT": 304.88,
+    "AverageSpeed": 90.45,
+    "Flow": 16
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "8:00:00",
+    "AverageJT": 295.44,
+    "AverageSpeed": 93.34,
+    "Flow": 13
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "8:15:00",
+    "AverageJT": 294.36,
+    "AverageSpeed": 93.68,
+    "Flow": 19
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "8:30:00",
+    "AverageJT": 289.94,
+    "AverageSpeed": 95.11,
+    "Flow": 11
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "8:45:00",
+    "AverageJT": 291.66,
+    "AverageSpeed": 94.55,
+    "Flow": 25
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "9:00:00",
+    "AverageJT": 279.7,
+    "AverageSpeed": 98.59,
+    "Flow": 35
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "9:15:00",
+    "AverageJT": 291.99,
+    "AverageSpeed": 94.44,
+    "Flow": 35
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "9:30:00",
+    "AverageJT": 292.93,
+    "AverageSpeed": 94.14,
+    "Flow": 35
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "9:45:00",
+    "AverageJT": 314.97,
+    "AverageSpeed": 87.55,
+    "Flow": 46
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "10:00:00",
+    "AverageJT": 299.84,
+    "AverageSpeed": 91.97,
+    "Flow": 75
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "10:15:00",
+    "AverageJT": 296.07,
+    "AverageSpeed": 93.14,
+    "Flow": 97
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "10:30:00",
+    "AverageJT": 294.8,
+    "AverageSpeed": 93.54,
+    "Flow": 84
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "10:45:00",
+    "AverageJT": 291.5,
+    "AverageSpeed": 94.6,
+    "Flow": 73
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "11:00:00",
+    "AverageJT": 304.88,
+    "AverageSpeed": 90.45,
+    "Flow": 125
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "11:15:00",
+    "AverageJT": 304.1,
+    "AverageSpeed": 90.68,
+    "Flow": 131
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "11:30:00",
+    "AverageJT": 302.47,
+    "AverageSpeed": 91.17,
+    "Flow": 131
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "11:45:00",
+    "AverageJT": 298.96,
+    "AverageSpeed": 92.24,
+    "Flow": 132
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "12:00:00",
+    "AverageJT": 295.82,
+    "AverageSpeed": 93.22,
+    "Flow": 148
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "12:15:00",
+    "AverageJT": 304.27,
+    "AverageSpeed": 90.63,
+    "Flow": 166
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "12:30:00",
+    "AverageJT": 317.33,
+    "AverageSpeed": 86.9,
+    "Flow": 144
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "12:45:00",
+    "AverageJT": 297.96,
+    "AverageSpeed": 92.55,
+    "Flow": 164
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "13:00:00",
+    "AverageJT": 288.51,
+    "AverageSpeed": 95.58,
+    "Flow": 148
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "13:15:00",
+    "AverageJT": 304.88,
+    "AverageSpeed": 90.45,
+    "Flow": 132
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "13:30:00",
+    "AverageJT": 296.8,
+    "AverageSpeed": 92.91,
+    "Flow": 137
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "13:45:00",
+    "AverageJT": 293.55,
+    "AverageSpeed": 93.94,
+    "Flow": 130
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "14:00:00",
+    "AverageJT": 298.25,
+    "AverageSpeed": 92.46,
+    "Flow": 128
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "14:15:00",
+    "AverageJT": 292.96,
+    "AverageSpeed": 94.13,
+    "Flow": 144
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "14:30:00",
+    "AverageJT": 279.48,
+    "AverageSpeed": 98.67,
+    "Flow": 139
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "14:45:00",
+    "AverageJT": 287.22,
+    "AverageSpeed": 96.01,
+    "Flow": 141
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "15:00:00",
+    "AverageJT": 280.41,
+    "AverageSpeed": 98.34,
+    "Flow": 146
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "15:15:00",
+    "AverageJT": 302.87,
+    "AverageSpeed": 91.05,
+    "Flow": 126
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "15:30:00",
+    "AverageJT": 298.67,
+    "AverageSpeed": 92.33,
+    "Flow": 156
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "15:45:00",
+    "AverageJT": 296.71,
+    "AverageSpeed": 92.94,
+    "Flow": 156
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "16:00:00",
+    "AverageJT": 291.38,
+    "AverageSpeed": 94.64,
+    "Flow": 172
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "16:15:00",
+    "AverageJT": 300.98,
+    "AverageSpeed": 91.62,
+    "Flow": 152
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "16:30:00",
+    "AverageJT": 304.84,
+    "AverageSpeed": 90.46,
+    "Flow": 126
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "16:45:00",
+    "AverageJT": 301.71,
+    "AverageSpeed": 91.4,
+    "Flow": 131
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "17:00:00",
+    "AverageJT": 312.65,
+    "AverageSpeed": 88.2,
+    "Flow": 103
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "17:15:00",
+    "AverageJT": 297.67,
+    "AverageSpeed": 92.64,
+    "Flow": 122
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "17:30:00",
+    "AverageJT": 305.25,
+    "AverageSpeed": 90.34,
+    "Flow": 98
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "17:45:00",
+    "AverageJT": 298.7,
+    "AverageSpeed": 92.32,
+    "Flow": 104
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "18:00:00",
+    "AverageJT": 300.88,
+    "AverageSpeed": 91.65,
+    "Flow": 108
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "18:15:00",
+    "AverageJT": 307.73,
+    "AverageSpeed": 89.61,
+    "Flow": 94
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "18:30:00",
+    "AverageJT": 303.63,
+    "AverageSpeed": 90.82,
+    "Flow": 70
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "18:45:00",
+    "AverageJT": 290.4,
+    "AverageSpeed": 94.96,
+    "Flow": 61
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "19:00:00",
+    "AverageJT": 294.55,
+    "AverageSpeed": 93.62,
+    "Flow": 65
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "19:15:00",
+    "AverageJT": 299.22,
+    "AverageSpeed": 92.16,
+    "Flow": 47
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "19:30:00",
+    "AverageJT": 310.54,
+    "AverageSpeed": 88.8,
+    "Flow": 72
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "19:45:00",
+    "AverageJT": 311.45,
+    "AverageSpeed": 88.54,
+    "Flow": 46
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "20:00:00",
+    "AverageJT": 309.39,
+    "AverageSpeed": 89.13,
+    "Flow": 49
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "20:15:00",
+    "AverageJT": 306.16,
+    "AverageSpeed": 90.07,
+    "Flow": 37
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "20:30:00",
+    "AverageJT": 315.59,
+    "AverageSpeed": 87.38,
+    "Flow": 45
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "20:45:00",
+    "AverageJT": 308.04,
+    "AverageSpeed": 89.52,
+    "Flow": 34
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "21:00:00",
+    "AverageJT": 308.04,
+    "AverageSpeed": 89.52,
+    "Flow": 24
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "21:15:00",
+    "AverageJT": 317.48,
+    "AverageSpeed": 86.86,
+    "Flow": 37
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "21:30:00",
+    "AverageJT": 286,
+    "AverageSpeed": 96.42,
+    "Flow": 29
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "21:45:00",
+    "AverageJT": 289.76,
+    "AverageSpeed": 95.17,
+    "Flow": 18
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "22:00:00",
+    "AverageJT": 290.4,
+    "AverageSpeed": 94.96,
+    "Flow": 27
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "22:15:00",
+    "AverageJT": 331.96,
+    "AverageSpeed": 83.07,
+    "Flow": 23
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "22:30:00",
+    "AverageJT": 324.42,
+    "AverageSpeed": 85,
+    "Flow": 17
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "22:45:00",
+    "AverageJT": 314.97,
+    "AverageSpeed": 87.55,
+    "Flow": 10
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "23:00:00",
+    "AverageJT": 289.15,
+    "AverageSpeed": 95.37,
+    "Flow": 21
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "23:15:00",
+    "AverageJT": 308.66,
+    "AverageSpeed": 89.34,
+    "Flow": 10
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "23:30:00",
+    "AverageJT": 296.07,
+    "AverageSpeed": 93.14,
+    "Flow": 11
+  },
+  {
+    "LinkDescription": "A40 between A4137 and A49 (AL2471)",
+    "Date": "01/01/2020",
+    "TimePeriod": "23:45:00",
+    "AverageJT": 303,
+    "AverageSpeed": 91.01,
+    "Flow": 6
+  }
+]
