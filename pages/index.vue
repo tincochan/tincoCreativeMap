@@ -5,30 +5,13 @@
 </template>
 
 <script>
-  import {
-    Scene,
-    PointLayer
-  } from '@antv/l7';
-  import {
-    GaodeMap
-  } from '@antv/l7-maps';
+  import LoadHeatmap from "../middleware/loadHeatmap"
 
   export default {
     mounted() {
-      this.loadMap();
+      LoadHeatmap.loadHeatmap();
     },
     methods: {
-      loadMap() {
-        const scene = new Scene({
-          id: 'mapContainer',
-          map: new GaodeMap({
-            pitch: 35.210526315789465,
-            style: 'dark',
-            center: [104.037098,30.240558],
-            zoom: 8
-          })
-        });
-      }
     }
   }
 
