@@ -1,5 +1,6 @@
 import {
   Scene,
+  Zoom,
   HeatmapLayer
 } from '@antv/l7';
 import {
@@ -13,7 +14,7 @@ export default {
       map: new GaodeMap({
         style: 'dark',
         pitch: 47.49999999999995,
-        center: [104.071228,30.660643],
+        center: [104.071228, 30.660643],
         zoom: 7.5
       })
     });
@@ -56,6 +57,10 @@ export default {
               ].reverse()
             );
           scene.addLayer(layer);
+          const zoomControl = new Zoom({
+            position: 'topright'
+          });
+          scene.addControl(zoomControl);
         });
     });
   }
