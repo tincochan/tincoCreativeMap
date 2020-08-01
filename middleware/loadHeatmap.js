@@ -1,5 +1,6 @@
 import {
   Scene,
+  Layers,
   Zoom,
   HeatmapLayer
 } from '@antv/l7';
@@ -24,7 +25,7 @@ export default {
         )
         .then(res => res.text())
         .then(data => {
-          const layer = new HeatmapLayer({})
+          const heatmapLayer = new HeatmapLayer({})
             .source(data, {
               parser: {
                 type: 'csv',
@@ -56,12 +57,20 @@ export default {
                 '#0A1FB2'
               ].reverse()
             );
-          scene.addLayer(layer);
+          scene.addLayer(heatmapLayer);
           // 地图缩放按钮
           const zoomControl = new Zoom({
             position: 'topright'
           });
           scene.addControl(zoomControl);
+          // 图层按钮
+          const overlayers = {
+            热力图: heatmapLayer
+          };
+          const layersControl = new Layers({
+            overlayers
+          });    
+          scene.addControl(layersControl);
         });
     });
   }
