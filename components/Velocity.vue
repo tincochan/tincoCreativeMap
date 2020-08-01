@@ -14,7 +14,7 @@
       const columnPlot = new this.$g2.Bar('canvas-dynamicVelocity', {
         title: {
           visible: true,
-          text: '该路况实时观测车辆速度',
+          text: '全川实时观测车辆速度',
         },
         description: {
           visible: true,
