@@ -6,13 +6,15 @@
 
 <script>
   import LoadHeatmap from "../middleware/loadHeatmap"
+  import Zoom from "../middleware/zoom"
 
   export default {
     mounted() {
       LoadHeatmap.loadHeatmap();
+      Zoom.zoom();
+
     },
-    methods: {
-    }
+    methods: {}
   }
 
 </script>
