@@ -49,7 +49,11 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    {
+      src: "~/plugins/g2",
+      ssr: false
+    }
   ],
   /*
    ** Auto import components
