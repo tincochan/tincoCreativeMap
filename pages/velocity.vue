@@ -31,7 +31,7 @@
     border: 2px solid #fff;
     padding: 5px;
     white-space: nowrap;
-    font: 700 12px/18px arial,sans-serif;
+    font: 700 14px/18px arial,sans-serif;
     color: #fff;
     border-radius: 50%;
     width: 50px;
