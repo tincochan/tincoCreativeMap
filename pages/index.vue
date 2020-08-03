@@ -17,7 +17,7 @@
   import VelocityPredict from '~/components/VelocityPredict'
   import Velocity from '~/components/Velocity'
   import VolumePredict from '~/components/VolumePredict'
-  import LoadHeatmap from "../middleware/loadHeatmap"
+  import LoadMap from "../middleware/loadMap"
 
   export default {
     components: {
@@ -26,7 +26,7 @@
       Velocity
     },
     mounted() {
-      LoadHeatmap.loadHeatmap();
+      LoadMap.loadMap();
     },
     methods: {}
   }

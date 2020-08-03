@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  var data = require("../data/velocityPredict.json");
+  var data = require("../data/trafficdata.json");
   export default {
     data() {
       return {
@@ -23,8 +23,8 @@
         color:'#04B404',
         //数据导入
         data: this.mockData,
-        xField: 'TimePeriod',
-        yField: 'Flow',
+        xField: 'time',
+        yField: 'pred_volumn',
         animation: {
           appear: {
             animation: 'clipingWithData',
