@@ -7,18 +7,19 @@
 <script>
   import LoadFlowing from "../middleware/loadFlowing"
 
-export default {
- mounted() {
+  export default {
+    mounted() {
       LoadFlowing.loadFlowing();
     },
-}
+  }
 </script>
 
 <style>
- .map-velocity {
+  .map-velocity {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 1;
   }
+
 </style>
