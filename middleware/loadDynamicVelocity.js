@@ -44,6 +44,7 @@ export default {
               lat: nodes[i].y
             });
             scene.addMarker(marker);
+            marker.on('click', () => {console.log(nodes[i].v)});
           }
         });
     }
