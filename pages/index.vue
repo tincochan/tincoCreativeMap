@@ -12,7 +12,7 @@
     </div>
     <div class="map-label">
       <a-card title="川高之最" class="flowing-card">
-        <a slot="extra" href="http://172.16.11.198:9000/" target="view_window">详情</a>
+        <a slot="extra" href="http://171.217.92.230:59890/" target="view_window">详情</a>
         <a-row :gutter="16">
           <a-col :span="12">
             <a-statistic title="事故路损最多：都映" :value="379840">
@@ -37,7 +37,7 @@
           <a-col :span="12">
             <a-statistic title="通行减免最多：绵广绵阳北站" :value="569.32" class="demo-class" style="margin-top:10px">
               <template #prefix>
-                <a-icon type="heat-map" />
+                <a-icon type="money-collect" theme="twoTone"  two-tone-color="#228B22"/>
               </template>
                <template #suffix>
                 <span>万元</span>
@@ -47,7 +47,7 @@
           <a-col :span="12">
             <a-statistic title="互通枢纽最堵：白家立交" :value="636" class="demo-class" style="margin-top:10px">
               <template #prefix>
-                <a-icon type="heat-map" />
+                <a-icon type="heat-map"  />
               </template>
                <template #suffix>
                 <span>h</span>
@@ -57,12 +57,42 @@
            <a-col :span="12">
             <a-statistic title="单次拥堵最久：成南" :value="987" class="demo-class" style="margin-top:10px">
               <template #prefix>
-                <a-icon type="heat-map" />
+                <a-icon type="dashboard"  theme="twoTone"  two-tone-color="#FF0000"/>
               </template>
                <template #suffix>
                 <span>min</span>
               </template>
             </a-statistic>
+          </a-col>
+           <a-col :span="12">
+            <a-statistic title="经停车流最大：金堂" :value="4136151" class="demo-class" style="margin-top:10px">
+              <template #prefix>
+                <a-icon type="interaction"  theme="twoTone"  two-tone-color="#FF00FF"/>
+              </template>
+               <template #suffix>
+                <span>辆</span>
+              </template>
+            </a-statistic>
+          </a-col>
+           <a-col :span="12">
+            <a-statistic title="养护施工最多：京川公路" :value="8811" class="demo-class" style="margin-top:10px">
+              <template #prefix>
+                <a-icon type="tool"  theme="twoTone" two-tone-color="#FFD700"/>
+              </template>
+               <template #suffix>
+                <span>单</span>
+              </template>
+            </a-statistic>  
+          </a-col>
+          <a-col :span="12">
+            <a-statistic title="设备故障最多：监控工作站" :value="67" class="demo-class" style="margin-top:10px">
+              <template #prefix>
+                <a-icon type="disconnect"  two-tone-color="#FF0000"/>
+              </template>
+               <template #suffix>
+                <span>次</span>
+              </template>
+            </a-statistic>           
           </a-col>
         </a-row>
       </a-card>
