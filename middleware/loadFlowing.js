@@ -29,14 +29,14 @@ export default{
                     }
                   })
                   .size(1)
-                  .shape('greatcircle')
+                  .shape('line')
                   .animate({
                     enable: true,
                     interval: 0.1,
                     trailLength: 0.5,
                     duration: 2
                   })
-                  .color('#00FFFF')
+                  .color('#FF00FF')
                   .style({
                     opacity: 0.8
                   });
