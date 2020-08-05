@@ -8,8 +8,8 @@ export default{
             map: new GaodeMap({
                 style: 'dark',
                 pitch: 0,
-                center: [105.071228, 32.660643],
-                zoom: 5.3
+                center: [100.071228, 36.660643],
+                zoom: 5
               })
           });
           scene.on('loaded', () => {
