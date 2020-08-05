@@ -1,25 +1,35 @@
 <template>
   <div class="main-flowing">
     <div class="map-flowing" id="map-flowing"></div>
-    <a-card title="全国高速公路车流量轨迹" style="width: 350px; height: 400px">
+    <a-card title="全国高速公路车流量轨迹" style="width: 350px; height: 450px">
       <a-row :gutter="16">
         <a-col :span="12">
-          <a-statistic title="全网路线数" :value="251000" />
+          <a-statistic title="车辆数" :value="1357056" />
         </a-col>
         <a-col :span="12">
-          <a-statistic title="油气站数" :value="6012" />
+          <a-statistic title="结算金额" :value="13.21">
+            <template #suffix>
+              <span>亿</span>
+            </template>
+          </a-statistic>
         </a-col>
-        <a-col :span="12" >
-          <a-statistic title="今日油耗" :value="2040000"  style="margin-top:20px"/>
+        <a-col :span="12">
+          <a-statistic title="全网路线数" :value="251000" style="margin-top:20px" />
+        </a-col>
+        <a-col :span="12">
+          <a-statistic title="油气站数" :value="6012" style="margin-top:20px" />
+        </a-col>
+        <a-col :span="12">
+          <a-statistic title="今日油耗" :value="2040000" style="margin-top:20px" />
         </a-col>
         <a-col :span="12">
           <a-statistic title="今日里程数" :value="51844000" style="margin-top:20px" />
         </a-col>
         <a-col :span="12">
-          <a-statistic title="今日进站数" :value="1756244" style="margin-top:20px"/>
+          <a-statistic title="今日进站数" :value="1756244" style="margin-top:20px" />
         </a-col>
         <a-col :span="12">
-          <a-statistic title="今日出站数" :value="1790774" style="margin-top:20px"/>
+          <a-statistic title="今日出站数" :value="1790774" style="margin-top:20px" />
         </a-col>
       </a-row>
     </a-card>
