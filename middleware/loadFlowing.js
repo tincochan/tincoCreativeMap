@@ -36,7 +36,7 @@ export default{
                     trailLength: 0.5,
                     duration: 2
                   })
-                  .color('#FF00FF')
+                  .color('#FFFF00')
                   .style({
                     opacity: 0.8
                   });
