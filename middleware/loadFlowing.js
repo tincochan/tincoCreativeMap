@@ -9,7 +9,7 @@ export default{
                 style: 'dark',
                 pitch: 0,
                 center: [100.071228, 36.660643],
-                zoom: 5
+                zoom: 4.7
               })
           });
           scene.on('loaded', () => {
