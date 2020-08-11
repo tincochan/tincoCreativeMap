@@ -13,7 +13,7 @@ export default{
               })
           });
           scene.on('loaded', () => {
-            fetch('https://gw.alipayobjects.com/os/rmsportal/UEXQMifxtkQlYfChpPwT.txt')
+            fetch('http://171.217.92.230:59801/data/flowing.txt')
               .then(res => res.text())
               .then(data => {
                 const layer = new LineLayer({
