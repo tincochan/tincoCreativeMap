@@ -165,10 +165,10 @@
   .congestion-card {
     position: fixed;
     z-index: 3;
-    bottom: 0px;
+    bottom: 100px;
     right: 0px;
-    width: 750px;
-    height: 300px;
+    width: 850px;
+    height: 150px;
   }
 
 </style>

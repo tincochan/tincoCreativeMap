@@ -25,10 +25,10 @@
           targets: [2.5],
           ranges: [0, 0.6, 0.8, 1],
         }],
-        rangeMax: 4,
+        rangeMax: 3,
         rangeColors: ['#FF0000', '#FFFF00', '#00FF00'],
-        height: 260,
-        width: 700,
+        height: 180,
+        width: 800,
         legend: {
           custom: true,
           visible: true,
