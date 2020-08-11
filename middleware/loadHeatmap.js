@@ -32,16 +32,17 @@ export default {
                 y: 'lat'
               },
               transforms: [{
-                type: 'grid',
+                type: 'hexagon',
                 size: 10000,
                 field: 'v',
                 method: 'sum'
               }]
             })
-            .shape('square')
+            .shape('hexagon')
             .style({
-              coverage: 1,
-              angle: 0
+              coverage: 0.8,
+              angle: 0,
+              opacity: 1.0
             })
             .color(
               'count',
