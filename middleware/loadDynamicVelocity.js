@@ -13,8 +13,8 @@ export default {
       map: new GaodeMap({
         style: 'dark',
         pitch: 0,
-        center: [105.071228, 32.660643],
-        zoom: 5.3
+        center: [103.071228, 30.000643],
+        zoom: 7.1
       })
     });
     scene.on('loaded', () => {
@@ -24,7 +24,7 @@ export default {
 
     function addMarkers() {
       fetch(
-          'https://gw.alipayobjects.com/os/basement_prod/67f47049-8787-45fc-acfe-e19924afe032.json'
+          'http://171.217.92.230:59801/data/station.json'
         )
         .then(res => res.json())
         .then(nodes => {
@@ -50,19 +50,19 @@ export default {
     }
 
     function getColor(v) {
-      return v > 50 ?
+      return v < 20 ?
         '#800026' :
-        v > 30 ?
+        v < 30 ?
         '#BD0026' :
-        v > 25 ?
+        v < 55 ?
         '#E31A1C' :
-        v > 20 ?
+        v < 70 ?
         '#FC4E2A' :
-        v > 15 ?
+        v < 85 ?
         '#FD8D3C' :
-        v > 10 ?
+        v < 90 ?
         '#FEB24C' :
-        v > 0 ?
+        v < 100 ?
         '#FED976' :
         '#FFEDA0';
     }
