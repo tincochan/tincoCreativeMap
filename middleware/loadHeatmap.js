@@ -61,14 +61,14 @@ export default {
               '#DEFAC0',
               '#ECFFB1'
             ]);
-            const overlayers = {
-              车流量统计: layer
-            };
-            const layersControl = new Layers({
-              overlayers
-            });
-            // 地图控件
-            scene.addControl(layersControl);
+          const overlayers = {
+            车流量统计: layer
+          };
+          const layersControl = new Layers({
+            overlayers
+          });
+          // 地图控件
+          scene.addControl(layersControl);
           scene.addLayer(layer);
         });
     });
