@@ -35,6 +35,9 @@ export default {
     }],
     script: [{
       src: "http://webapi.amap.com/maps?v=2.0&key=561e19e10e03b45d298a5cd7f85713e7"
+    },
+    {
+      src: "https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-language/v0.9.2/mapbox-gl-language.js"
     }],
   },
   /*

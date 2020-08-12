@@ -12,7 +12,7 @@ export default {
     const scene = new Scene({
       id: 'mapContainer',
       map: new Mapbox({
-        style: 'dark',
+        style: 'mapbox://styles/mapbox/traffic-night-v2',
         pitch: 43,
         center: [103.071228, 29.000643],
         zoom: 6.0
@@ -67,9 +67,11 @@ export default {
           const layersControl = new Layers({
             overlayers
           });
+          mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.1.0/mapbox-gl-rtl-text.js');
           // 地图控件
           scene.addControl(layersControl);
           scene.addLayer(layer);
+          scene.map.addControl(new MapboxLanguage({defaultLanguage: 'zh'}));
         });
     });
 
