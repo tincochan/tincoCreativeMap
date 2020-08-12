@@ -1,30 +1,30 @@
 import {
   Scene,
-  HeatmapLayer,
   Layers,
+  HeatmapLayer
 } from '@antv/l7';
 import {
-  GaodeMap
+  Mapbox
 } from '@antv/l7-maps';
 
 export default {
   loadHeatmap() {
     const scene = new Scene({
       id: 'mapContainer',
-      map: new GaodeMap({
+      map: new Mapbox({
         style: 'dark',
-        pitch: 0,
-        center: [105.071228, 32.660643],
-        zoom: 5.3
+        pitch: 43,
+        center: [103.071228, 29.000643],
+        zoom: 6.0
       })
     });
     scene.on('loaded', () => {
       fetch(
-          'https://gw.alipayobjects.com/os/basement_prod/7359a5e9-3c5e-453f-b207-bc892fb23b84.csv'
+          'http://171.217.92.230:59801/data/heatmap.csv'
         )
         .then(res => res.text())
         .then(data => {
-          const heatmapLayer = new HeatmapLayer({})
+          const layer = new HeatmapLayer({})
             .source(data, {
               parser: {
                 type: 'csv',
@@ -33,40 +33,45 @@ export default {
               },
               transforms: [{
                 type: 'hexagon',
-                size: 10000,
+                size: 25000,
                 field: 'v',
                 method: 'sum'
               }]
             })
-            .shape('hexagon')
+            .size('sum', sum => {
+              return sum * 200;
+            })
+            .shape('hexagonColumn')
             .style({
               coverage: 0.8,
               angle: 0,
               opacity: 1.0
             })
-            .color(
-              'count',
-              [
-                '#FF3417',
-                '#FF7412',
-                '#FFB02A',
-                '#FFE754',
-                '#46F3FF',
-                '#02BEFF',
-                '#1A7AFF',
-                '#0A1FB2'
-              ].reverse()
-            );
-          const overlayers = {
-            车流量统计: heatmapLayer
-          };
-          const layersControl = new Layers({
-            overlayers
-          });
-          // 地图控件
-          scene.addControl(layersControl);
-          scene.addLayer(heatmapLayer);
+            .color('sum', [
+              '#094D4A',
+              '#146968',
+              '#1D7F7E',
+              '#289899',
+              '#34B6B7',
+              '#4AC5AF',
+              '#5FD3A6',
+              '#7BE39E',
+              '#A1EDB8',
+              '#C3F9CC',
+              '#DEFAC0',
+              '#ECFFB1'
+            ]);
+            const overlayers = {
+              车流量统计: layer
+            };
+            const layersControl = new Layers({
+              overlayers
+            });
+            // 地图控件
+            scene.addControl(layersControl);
+          scene.addLayer(layer);
         });
     });
+
   }
 }
