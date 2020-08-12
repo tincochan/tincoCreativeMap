@@ -48,18 +48,12 @@ export default {
               opacity: 1.0
             })
             .color('sum', [
-              '#094D4A',
-              '#146968',
-              '#1D7F7E',
-              '#289899',
-              '#34B6B7',
-              '#4AC5AF',
-              '#5FD3A6',
-              '#7BE39E',
-              '#A1EDB8',
-              '#C3F9CC',
-              '#DEFAC0',
-              '#ECFFB1'
+              '#FF4818',
+              '#F7B74A',
+              '#FFF598',
+              '#FF40F3',
+              '#9415FF',
+              '#421EB2'
             ]);
           const overlayers = {
             车流量统计: layer
