@@ -20,6 +20,7 @@ export default {
     scene.on('loaded', () => {
       addMarkers();
       scene.render();
+      addTraffic();
     });
 
     function addMarkers() {
@@ -44,9 +45,19 @@ export default {
               lat: nodes[i].y
             });
             scene.addMarker(marker);
-            marker.on('click', () => {console.log(nodes[i].v)});
+            marker.on('click', () => {
+              console.log(nodes[i].v)
+            });
           }
         });
+    }
+
+    function addTraffic() {
+      //实时路况图层
+      const trafficLayer = new AMap.TileLayer.Traffic({
+        zIndex: 3
+      });
+      scene.map.add(trafficLayer);
     }
 
     function getColor(v) {
