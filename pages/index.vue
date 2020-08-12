@@ -2,7 +2,7 @@
   <div class="main">
     <div class="map" id="mapContainer"></div>
     <div id="sidebar" class="right-sidebar" v-show=true>
-      <a-page-header style="border: 1px solid rgb(235, 237, 240)" title="数据汇总" sub-title="全国车流量情况" @back="() => null">
+      <a-page-header style="border: 1px solid rgb(235, 237, 240)" title="数据汇总" sub-title="全川车流量情况" @back="() => null">
         <a slot="extra" href="http://171.217.92.230:59827/velocity" target="view_velocity">动态限速牌展示</a>
       </a-page-header>
       <velocity />
