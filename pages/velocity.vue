@@ -1,6 +1,12 @@
 <template>
   <div class="main-velocity">
     <div class="map-velocity" id="map-velocity"></div>
+     <a-card title="动态限速牌展示" style="width: 600px">
+      <p>参考文献： CHEN Meng et al., 2019 An algorithm-optimized car-following model based on Chengdu ring
+expressway traffic flow characteristics</p>
+      <p>根据当前道路的拥堵情况为道路的车流提供预测的限速值，从而使车流顺畅地行进。</p>
+      <p>图中点位坐标为数据库部分交调站坐标。</p>
+    </a-card>
   </div>
 </template>
 
@@ -20,7 +26,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 1;
   }
 
   .labelclass {
