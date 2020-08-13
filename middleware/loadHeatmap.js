@@ -56,7 +56,7 @@ export default {
               '#421EB2'
             ]);
           const overlayers = {
-            车流量统计: layer
+            拥堵统计: layer
           };
           const layersControl = new Layers({
             overlayers
