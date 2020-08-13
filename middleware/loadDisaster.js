@@ -42,10 +42,12 @@ export default {
               zIndex: 2
             })
             .source(data)
-            .color('#000')
-            .size(0.5)
+            .color('#2E2EFE')
+            .size(0.8)
             .style({
-              opacity: 1
+                lineType: 'dash',
+                dashArray: [ 2, 2 ],
+                opacity: 1
             });
 
           scene.addLayer(chinaPolygonLayer);
