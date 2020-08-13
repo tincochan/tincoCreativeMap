@@ -1,9 +1,12 @@
 <template>
   <div class="main-velocity">
     <div class="map-velocity" id="map-velocity"></div>
-     <a-card title="动态限速牌展示" style="width: 600px">
+    <a-card title="动态限速牌展示" style="width: 600px">
+      <a slot="extra">
+        <nuxt-link to="/disaster">全国地质灾害分布</nuxt-link>
+      </a>
       <p>参考文献： CHEN Meng et al., 2019 An algorithm-optimized car-following model based on Chengdu ring
-expressway traffic flow characteristics</p>
+        expressway traffic flow characteristics</p>
       <p>根据当前道路的拥堵情况为道路的车流提供预测的限速值，从而使车流顺畅地行进。</p>
       <p>图中点位坐标为数据库部分交调站坐标。</p>
     </a-card>
@@ -36,7 +39,7 @@ expressway traffic flow characteristics</p>
     border: 2px solid #fff;
     padding: 5px;
     white-space: nowrap;
-    font: 700 14px/18px arial,sans-serif;
+    font: 700 14px/18px arial, sans-serif;
     color: #fff;
     border-radius: 50%;
     width: 50px;
@@ -47,6 +50,6 @@ expressway traffic flow characteristics</p>
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
+  }
 
 </style>
