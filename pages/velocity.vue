@@ -50,18 +50,18 @@
     user-select: none;
   }
 
-  .l7-popup-content{
+  .l7-popup-content {
     width: 400px;
     height: 140px;
     z-index: 999;
   }
 
-.l7-popup-close-button {
-  right: 5px;
-  top: 5px;
-}
+  .l7-popup-close-button {
+    right: 5px;
+    top: 5px;
+  }
 
-  .l7-marker{
+  .l7-marker {
     z-index: 0;
   }
 
