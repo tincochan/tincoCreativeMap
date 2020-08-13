@@ -1,6 +1,7 @@
 import {
   Scene,
-  Marker
+  Marker,
+  Popup
 } from '@antv/l7';
 import {
   GaodeMap
@@ -45,8 +46,14 @@ export default {
               lat: nodes[i].y
             });
             scene.addMarker(marker);
-            marker.on('click', () => {
-              console.log(nodes[i].v)
+            marker.on('click', (e) => {
+              const popup = new Popup({
+                offsets: [ 0, 0 ],
+                closeButton: true,
+              })
+                .setLnglat([nodes[i].x, nodes[i].y])
+                .setHTML(`<br/><p>当前交调站：${nodes[i].n}</p><p>经纬度：${nodes[i].x}, ${nodes[i].y}</p><p>建议行驶速度：${nodes[i].v}km/s</p>`);
+              scene.addPopup(popup);
             });
           }
         });
