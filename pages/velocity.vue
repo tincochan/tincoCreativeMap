@@ -52,7 +52,7 @@
 
   .l7-popup-content {
     width: 400px;
-    height: 140px;
+    height: 150px;
     z-index: 999;
   }
 

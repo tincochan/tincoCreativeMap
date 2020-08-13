@@ -52,7 +52,7 @@ export default {
                 closeButton: true,
               })
                 .setLnglat([nodes[i].x, nodes[i].y])
-                .setHTML(`<br/><p>当前交调站：${nodes[i].n}</p><p>经纬度：${nodes[i].x}, ${nodes[i].y}</p><p>建议行驶速度：${nodes[i].v}km/s</p>`);
+                .setHTML(`<h3>详情</h3><p>当前交调站：${nodes[i].n}</p><p>经纬度：${nodes[i].x}, ${nodes[i].y}</p><p>建议行驶速度：${nodes[i].v}km/s</p>`);
               scene.addPopup(popup);
             });
           }
