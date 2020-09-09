@@ -7,7 +7,15 @@
         expressway traffic flow characteristics</p>
       <p>根据当前道路的拥堵情况为道路的车流提供预测的限速值，从而使车流顺畅地行进。</p>
       <p>图中点位坐标为数据库部分交调站坐标。</p>
+      <a-button type="primary" @click="showModal">
+        视频算法统计
+      </a-button>
     </a-card>
+
+    <a-modal v-model="visible" title="视频监控示例" :footer="null" :maskClosable="false" width="50%">
+      <video src="http://171.217.92.230:59801/data/sample.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
+    </a-modal>
+
   </div>
 </template>
 
@@ -17,6 +25,20 @@
   export default {
     mounted() {
       LoadDynamicVelocity.loadDynamicVelocity();
+    },
+    data() {
+      return {
+        visible: false,
+      };
+    },
+    methods: {
+      showModal() {
+        this.visible = true;
+      },
+      handleOk(e) {
+        console.log(e);
+        this.visible = false;
+      },
     },
   }
 
