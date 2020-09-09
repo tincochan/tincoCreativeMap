@@ -15,10 +15,10 @@
       </a-button>
     </a-card>
 
-    <a-modal v-model="visible" title="视频监控示例" :footer="null" :maskClosable="false" width="50%">
+    <a-modal v-model="visible" title="视频车流量统计" :footer="null" :maskClosable="false" width="50%">
       <video src="http://171.217.92.230:59801/data/sample.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
     </a-modal>
-    <a-modal v-model="velocityVisible" title="视频监控示例" :footer="null" :maskClosable="false" width="50%">
+    <a-modal v-model="velocityVisible" title="视频车速统计" :footer="null" :maskClosable="false" width="50%">
       <video src="http://171.217.92.230:59801/data/output1.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
       <video src="http://171.217.92.230:59801/data/output5.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
       <video src="http://171.217.92.230:59801/data/output2.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
