@@ -16,6 +16,9 @@
       <a-button type="primary" @click="showOptical">
         视频光流追踪
       </a-button>
+      <a-button type="primary" @click="showRawData">
+        原始数据导出
+      </a-button>
     </a-card>
 
     <a-modal v-model="visible" title="视频车流量统计" :footer="null" :maskClosable="false" width="50%">
@@ -57,6 +60,9 @@
       showOptical() {
         this.opticalVisible = true;
       },
+      showRawData(){
+        window.open("http://171.217.92.230:59878/swagger-ui.html#/");
+      }
     },
   }
 
