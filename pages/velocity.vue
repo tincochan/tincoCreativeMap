@@ -1,7 +1,7 @@
 <template>
   <div class="main-velocity">
     <div class="map-velocity" id="map-velocity"></div>
-    <a-card title="动态限速牌展示" style="width: 600px">
+    <a-card title="动态限速牌展示" style="width: 700px">
       <a slot="extra" href="http://171.217.92.230:59827/disaster" target="view_disaster">全国地质灾害分布</a>
       <p>参考文献： CHEN Meng et al., 2019 An algorithm-optimized car-following model based on Chengdu ring
         expressway traffic flow characteristics</p>
@@ -13,6 +13,9 @@
       <a-button type="primary" @click="showVelocityModal">
         视频车速统计
       </a-button>
+      <a-button type="primary" @click="showLineModal">
+        车道检测
+      </a-button>
       <a-button type="primary" @click="showOptical">
         视频光流追踪
       </a-button>
@@ -22,15 +25,28 @@
     </a-card>
 
     <a-modal v-model="visible" title="视频车流量统计" :footer="null" :maskClosable="false" width="50%">
-      <video src="http://171.217.92.230:59801/data/sample.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
+      <a-carousel>
+        <div><video src="http://171.217.92.230:59801/data/sample.mp4" controls="controls" style="object-fit: fill"
+            width="100%" autoplay="autoplay"></video></div>
+        <div><video src="http://171.217.92.230:59801/data/trajectory_result.mp4" controls="controls"
+            style="object-fit: fill" width="100%" autoplay="autoplay"></video></div>
+      </a-carousel>
     </a-modal>
     <a-modal v-model="velocityVisible" title="视频车速统计" :footer="null" :maskClosable="false" width="50%">
-      <video src="http://171.217.92.230:59801/data/output1.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
-      <video src="http://171.217.92.230:59801/data/output5.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
-      <video src="http://171.217.92.230:59801/data/output2.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
+      <video src="http://171.217.92.230:59801/data/output1.mp4" controls="controls" style="object-fit: fill"
+        width="100%" autoplay="autoplay"></video>
+      <video src="http://171.217.92.230:59801/data/output5.mp4" controls="controls" style="object-fit: fill"
+        width="100%" autoplay="autoplay"></video>
+      <video src="http://171.217.92.230:59801/data/output2.mp4" controls="controls" style="object-fit: fill"
+        width="100%" autoplay="autoplay"></video>
     </a-modal>
     <a-modal v-model="opticalVisible" title="视频光流追踪" :footer="null" :maskClosable="false" width="50%">
-      <video src="http://171.217.92.230:59801/data/out12.mp4" controls="controls" style="object-fit: fill" width="100%" autoplay="autoplay"></video>
+      <video src="http://171.217.92.230:59801/data/out12.mp4" controls="controls" style="object-fit: fill" width="100%"
+        autoplay="autoplay"></video>
+    </a-modal>
+    <a-modal v-model="lineVisible" title="车道检测" :footer="null" :maskClosable="false" width="50%">
+      <video src="http://171.217.92.230:59801/data/output3.mp4" controls="controls" style="object-fit: fill"
+        width="100%" autoplay="autoplay"></video>
     </a-modal>
 
   </div>
@@ -47,20 +63,24 @@
       return {
         visible: false,
         velocityVisible: false,
-        opticalVisible: false
+        opticalVisible: false,
+        lineVisible: false
       };
     },
     methods: {
       showModal() {
         this.visible = true;
       },
-       showVelocityModal() {
+      showVelocityModal() {
         this.velocityVisible = true;
+      },
+      showLineModal() {
+        this.lineVisible = true;
       },
       showOptical() {
         this.opticalVisible = true;
       },
-      showRawData(){
+      showRawData() {
         window.open("http://171.217.92.230:59878/swagger-ui.html#/");
       }
     },
