@@ -14,7 +14,7 @@
         视频车速统计
       </a-button>
       <a-button type="primary" @click="showLineModal">
-        车道检测
+        行人等物体检测
       </a-button>
       <a-button type="primary" @click="showOptical">
         视频光流追踪
@@ -44,8 +44,8 @@
       <video src="http://171.217.92.230:59801/data/out12.mp4" controls="controls" style="object-fit: fill" width="100%"
         autoplay="autoplay"></video>
     </a-modal>
-    <a-modal v-model="lineVisible" title="车道检测" :footer="null" :maskClosable="false" width="50%">
-      <video src="http://171.217.92.230:59801/data/output3.mp4" controls="controls" style="object-fit: fill"
+    <a-modal v-model="lineVisible" title="行人等物体检测" :footer="null" :maskClosable="false" width="50%">
+      <video src="http://171.217.92.230:59801/data/person.mp4" controls="controls" style="object-fit: fill"
         width="100%" autoplay="autoplay"></video>
     </a-modal>
 
