@@ -36,9 +36,10 @@ export default {
             }
             const el = document.createElement('label');
             el.className = 'labelclass';
-            el.textContent = nodes[i].v + 'm/s';
-            el.style.background = getColor(nodes[i].v);
-            el.style.borderColor = getColor(nodes[i].v);
+            el.textContent = nodes[i].v;
+            el.style.background = "#fff";
+            el.style.borderColor = "#fff";
+            el.style.boxShadow = "0 0 0 8px red";
             const marker = new Marker({
               element: el
             }).setLnglat({

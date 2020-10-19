@@ -99,12 +99,12 @@
     position: absolute;
     display: inline;
     cursor: pointer;
-    background: #ffe478;
+    background: #fff;
     border: 2px solid #fff;
     padding: 5px;
     white-space: nowrap;
-    font: 700 14px/18px arial, sans-serif;
-    color: #fff;
+    font: 1000 28px/20px arial, sans-serif;
+    color: #000;
     border-radius: 50%;
     width: 50px;
     height: 50px;
