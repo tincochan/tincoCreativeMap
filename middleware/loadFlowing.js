@@ -13,7 +13,7 @@ export default{
               })
           });
           scene.on('loaded', () => {
-            fetch('http://171.217.92.230:59801/data/flowing.txt')
+            fetch('http://172.16.11.198:3001/data/flowing.txt')
               .then(res => res.text())
               .then(data => {
                 const layer = new LineLayer({

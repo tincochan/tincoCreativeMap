@@ -26,7 +26,7 @@ export default {
 
     function addMarkers() {
       fetch(
-          'http://171.217.92.230:59801/data/station.json'
+          'http://172.16.11.198:3001/data/station.json'
         )
         .then(res => res.json())
         .then(nodes => {

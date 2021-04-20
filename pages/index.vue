@@ -3,7 +3,7 @@
     <div class="map" id="mapContainer"></div>
     <div id="sidebar" class="right-sidebar" v-show=true>
       <a-page-header style="border: 1px solid rgb(235, 237, 240)" title="数据汇总" sub-title="全川车流量情况" @back="() => null">
-        <a slot="extra" href="http://171.217.92.230:59827/velocity" target="view_velocity">动态限速牌展示</a>
+        <a slot="extra" href="http://172.16.11.198:9527/velocity" target="view_velocity">动态限速牌展示</a>
       </a-page-header>
       <velocity />
       <a-divider>时间轴</a-divider>
@@ -14,13 +14,13 @@
     </div>
     <div class="congestion-card">
       <a-card title="全网拥堵情况">
-        <a slot="extra" href="http://171.217.92.230:59890/" target="view_react">详情</a>
+        <a slot="extra" href="http://172.16.11.198:9000/" target="view_react">详情</a>
         <CongestionByRoad />
       </a-card>
     </div>
     <div class="map-label">
       <a-card title="川高之最" class="flowing-card">
-        <a slot="extra" href="http://171.217.92.230:59827/flowing" target="view_china">全国高速公路车流迁移</a>
+        <a slot="extra" href="http://172.16.11.198:9527/flowing" target="view_china">全国高速公路车流迁移</a>
         <a-row :gutter="16">
           <a-col :span="12">
             <a-statistic title="事故路损最多：都映" :value="379840">

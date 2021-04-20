@@ -20,7 +20,7 @@ export default {
     });
     scene.on('loaded', () => {
       fetch(
-          'http://171.217.92.230:59801/data/heatmap.csv'
+          'http://172.16.11.198:3001/data/heatmap.csv'
         )
         .then(res => res.text())
         .then(data => {
