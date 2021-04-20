@@ -2,7 +2,7 @@
   <div class="main-velocity">
     <div class="map-velocity" id="map-velocity"></div>
     <a-card title="动态限速牌展示" style="width: 700px">
-      <a slot="extra" href="http://172.16.11.198:9527/disaster" target="view_disaster">全国地质灾害分布</a>
+      <a slot="extra" href="http://172.16.11.198:3000/disaster" target="view_disaster">全国地质灾害分布</a>
       <p>参考文献： CHEN Meng et al., 2019 An algorithm-optimized car-following model based on Chengdu ring
         expressway traffic flow characteristics</p>
       <p>根据当前道路的拥堵情况为道路的车流提供预测的限速值，从而使车流顺畅地行进。</p>
